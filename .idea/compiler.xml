@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="java practice" />
         <module name="java_practice" />
+        <module name="JAVA_SDE_Practice" />
       </profile>
     </annotationProcessing>
   </component>
