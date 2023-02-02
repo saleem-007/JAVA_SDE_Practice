@@ -2,7 +2,7 @@ package Collection;
 
 import java.util.ArrayList;
 
-public class ArrayListPrograms1 {
+public class ArrPrograms {
     public static void main(String[] args) {
       /*  ArrayList<java.io.Serializable> Arr=new ArrayList<>();
         Arr.add("Saleem");
