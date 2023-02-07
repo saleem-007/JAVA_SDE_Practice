@@ -16,8 +16,10 @@ public class ConvertArrayToString {
         String convertArraysToString= Arrays.toString(str);
         System.out.println(convertArraysToString);
 
-        StringBuilder sb=new StringBuilder("My name Is Yash");
-        sb.append(" No im Saleem");
+        StringBuilder sb=new StringBuilder();
+        for (int i = 0; i < str.length; i++) {
+            sb.append(str[i]+" ");
+        }
         System.out.println(sb);
 
         String bu=String.join(" ", str);
