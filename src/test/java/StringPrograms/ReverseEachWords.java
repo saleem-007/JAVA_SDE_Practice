@@ -13,8 +13,9 @@ public class ReverseEachWords {
         }
         String [] d=str2.split(" ");
         ArrayList ar=new ArrayList<>(Arrays.asList(d));
+        System.out.println(ar);
         for(int i=ar.size()-1;i>=0;i--) {
-            System.out.print(ar.get(i));
+            System.out.print(ar.get(i)+" ");
         }
     }
 }
